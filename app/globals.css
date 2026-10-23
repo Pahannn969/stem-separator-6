@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0a0a;
+  --surface: #121212;
+  --surface-2: #1a1a1a;
+  --border: #252525;
+  --text: #fafafa;
+  --muted: #8a8a8a;
+}
+* { scrollbar-width: thin; scrollbar-color: #2a2a2a transparent; }
+body { background: var(--bg); font-family: ui-sans-system, sans-serif; }
